@@ -1,0 +1,19 @@
+//Task 2.2.1
+
+way["highway"="motorway"](49.174 ,8.356,49.754,9.1);
+(._;>;);
+out;
+
+//Task 2.2.2
+(
+  way["landuse"="forest"](49.174 ,8.356,49.754,9.1);
+  relation["landuse"="forest"](49.174 ,8.356,49.754,9.1);
+  way["landcover"="trees"](49.174 ,8.356,49.754,9.1);
+  relation["landcover"="trees"](49.174 ,8.356,49.754,9.1);
+  way["natural"="wood"](49.174 ,8.356,49.754,9.1);
+  relation["natural"="wood"](49.174 ,8.356,49.754,9.1);
+  );
+(._;>;);
+out;
+
+//no data tagged "wood"="yes"
